@@ -1,0 +1,460 @@
+@font-face {
+    font-family: Cookbook_font;
+    src: url('font/Cookbook_font.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: Sarah_font;
+    src: url('font/Sarah_font.otf') format('OpenType');
+}
+
+@font-face {
+    font-family: Mol_font;
+    src: url('font/Mol_font.otf') format('OpenType');
+}
+
+body {
+    font-family: 'Mol_font', sans-serif;
+    letter-spacing: 0.5px;
+} 
+
+.topHead {
+    margin-top: -20px;
+}
+
+.bottomHead {}
+
+/*navbar*/
+.bar {
+    height: 50px;
+    border: 1px solid gray;
+    background-size: contain;
+}
+
+.bar span {
+    text-align: center;
+    height: 49;
+    font-size: 20px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.bar span:hover {
+    background-color: #85E0E0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+span p {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #5C5C5C;
+}
+
+.barHighlight {
+    background-color: black;
+}
+
+
+/*First row */
+.grid {
+/*  height: 250px; */
+    margin-top: 15px;
+}
+
+h3 span {
+    font-size: 14px;
+}
+
+/*About*/
+.borderTop {
+    margin-top: 10px;
+}
+
+.aboutContent {
+    letter-spacing: 1px;
+    line-height: 150%;
+    font-size: 18px;
+    text-indent: 2em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.instaBox {
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #D6E0EB;
+     box-shadow: 0 0 8px #888888;
+    -moz-box-shadow: 0 0 8px #888888;
+    -webkit-box-shadow: 0 0 8px #888888;
+}
+
+.insta {
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.insta a {
+    text-decoration: none;
+    color: black;
+}
+
+.insta:hover {
+    background-color: lightgray;
+}
+
+.mushroom {
+    margin-top: 10px;
+}
+
+.row4 {
+    margin-top: 10px;
+}
+
+/*Author*/
+.author {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cairn {
+    margin-top: 50px;
+}
+
+.profile2 img {
+    margin-top: 10px;
+}
+
+/*buy*/
+.buy {
+    text-align: center;
+}
+
+.buyBox {
+    height: 100px;
+}
+
+.buttons div div {
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
+
+.buttons div:hover {
+    opacity: .6;
+}
+
+.amazon p,
+.ghf p {
+    margin: 5px 5px 2px 5px;
+} 
+
+.amazon {
+    background-color: #FFD666;
+    border: 3px solid #000066;
+    box-shadow: 0 0 8px #888888;
+    -moz-box-shadow: 0 0 8px #888888;
+    -webkit-box-shadow: 0 0 8px #888888;
+}
+
+.ghf {
+    background-color: #85E0E0;
+    border: 3px solid #0052A3;
+    color: #0052A3;
+    box-shadow: 0 0 8px #888888;
+    -moz-box-shadow: 0 0 8px #888888;
+    -webkit-box-shadow: 0 0 8px #888888;
+    cursor: pointer;
+}
+
+.buttons .amazon a {
+    color: #000066;
+}
+
+/*Buy Form*/
+
+.buyForm {
+    display: none;
+    font-family: sans-serif;
+    border-top: 3px solid dimgray;
+}
+
+.buyForm form {
+    margin-top: 10px;
+}
+
+.priceBox { 
+    border: 1px solid dimgray;
+    height: 35px;
+    width: 150px;
+    border-radius: 2px;
+}
+
+.priceBox p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.submitBtn {
+    float: right;
+}
+
+/*Reviews*/
+.reviews {
+    margin-top: 10px;
+}
+
+.reviewSign img {
+    margin-top: 15px;
+}
+
+.reviewGrid {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.reviewGrid .reviewTitle {
+    text-indent: 15px;
+    font-size: 20px;
+} 
+
+.reviewGrid .caption {
+    float: right;
+    font-size: 20px;
+}
+
+.friends {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    background-color: #D6E7EF;
+    margin-top: 10px;
+    color: #5C5C5C;
+}
+
+.friendBox {}
+
+.friends p {
+    font-size: 15px;
+    margin-top: 20px;
+/*    text-align: center;
+*/    font-family: verdana;
+    text-indent: 5px;
+    color: #808080;
+} 
+
+.friends h4 {
+    margin-top: 20px;
+    text-indent: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.friends h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.moreFriend {
+    background-color: #006699;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.moreFriend:hover {
+    cursor: pointer;
+}
+
+.moreFriend p {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.hiddenFriend {
+    display: none;
+    border-top: 2px solid gray;
+}
+
+
+footer {
+    text-align: center;
+    font-family: verdana;
+    font-weight: 500;
+    background-color: #F0F5F5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+figure.picOne {
+        background-color: #80CC80;
+    }
+
+figure.picTwo {
+        background-color: #E98383;
+    }
+
+figure.picThree {
+        background-color: #66A366;
+    }
+
+figure.picFour {
+        background-color: #336699;
+    }
+
+figure.picFive {
+        background-color: #B5A3D8;
+    }
+
+figure.picSix {
+        background-color: #FFE066;
+    }
+
+.effect-goliath img:hover {
+    opacity: .7;
+}
+
+figcaption {
+    margin-top: 4px;
+    color: black;
+    text-indent: 5px;
+    border-radius: 2px;
+}
+
+figcaption h3,
+figcaption p {
+    color: white;
+}
+
+figcaption p {
+    font-size: 16px;
+}
+
+figcaption h3 {
+    margin-top: 10px;
+}
+
+.instaBox {
+    margin-bottom: 10px;
+}
+
+.bar .freeRecipe {
+   background-color: #B6ECEC
+}
+
+@media screen and (max-width: 992px) {
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+
+    figcaption h4,
+    figcaption p {
+        padding-left: 4px;
+    }
+    /*.freeRecipe p {
+        font-size: 18px;
+    }*/
+}
+
+@media screen and (min-width: 768px) {
+    .profile1 img,
+    .caption2 img {
+        transform: rotate(-5deg);
+    }
+    .caption1 img,
+    .profile2 img {
+        transform: rotate(5deg);
+    }
+    .about1 {
+        min-height: 250px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sign {
+        max-height: 450px;
+        overflow: hidden;
+    }
+    .about1 {
+        min-height: 450px;
+    }
+    .instaBox {
+     margin-top: 50px;
+    }
+    .buttons {
+        margin-top: 75px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .amazon p,
+    .ghf p {
+        font-size: 18px;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+    .effect-goliath h4 {
+        font-size: 14px;
+    }
+    .effect-goliath p {
+        font-size: 12px;
+    }
+    .buyBox {
+        border-top: 1px solid gray;
+        margin-bottom: -30px;
+    }
+    .reviewGrid {
+        font-size: 12px;
+    }
+    .reviewTitle {
+        font-size: 16px;
+    }
+    .reviewGrid .caption {
+        font-size: 16px;
+    }
+    .aboutContent {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    .bar {
+        height: 35px;
+    }
+    .bar span {
+        height: 34px;
+    }
+    .bar span p {
+        margin-top: 5px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .friends h4 {
+        font-size: 14px;
+    }
+    .friends p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .moreFriend p {
+        font-size: 20px;
+        padding-bottom: 0px;
+        padding-top: 10px;
+    }
+}
